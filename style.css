@@ -10,6 +10,7 @@ body {
 .container {
     box-sizing: border-box;
 
+
 }
 
 header {
@@ -21,6 +22,7 @@ header {
 
 ul {
     list-style: none;
+    margin: auto;
 }
 
 li {
@@ -31,7 +33,10 @@ li {
     text-transform: uppercase;
     border-right: solid 1px white;
     padding: 10px 25px 0 10px;
+}
 
+li:last-child {
+    border-right: none;
 }
 
 li a {
